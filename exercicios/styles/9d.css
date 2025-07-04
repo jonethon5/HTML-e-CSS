@@ -1,0 +1,27 @@
+.div{
+    background-color: black;
+    width: 340px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.title{
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top:20px ;
+    padding-bottom: 0px;
+    
+
+}
+p{
+    width: 330px;
+    color:  rgb(150, 150, 150);
+    font-family: arial;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 0;
+    
+}

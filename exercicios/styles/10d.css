@@ -1,0 +1,73 @@
+.principal {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+}
+
+.container{
+    align-items: center;
+    display: grid;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    border-radius: 2px;
+    padding-left: 25px;
+     
+}
+.mutual {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    margin-left: 0px;
+    gap: 4px; /* Espaço entre a imagem e o texto */
+}
+
+
+.perfil-user{
+    height: 140px;
+    width: 140px;
+    object-fit: cover;
+    margin-top: 0px;
+   
+    
+    
+}
+.perfil-em-comum{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    
+}
+.mutual-friends{
+   font-size: 10px;
+   margin: 0;
+   color: rgb(96,96,96);
+  
+    
+}
+.name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+}
+.add{
+    width: 80px;
+    height: 25px;
+    margin-top: 4px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    background-color: rgb(29, 161, 242);
+    color: white;
+    margin-bottom: 5px;
+    font-family: arial;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Roboto, Arial;
+}
+p{
+    font-family: Roboto, Arial;
+}

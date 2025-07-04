@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+.um{
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dois{
+    background-color: cadetblue;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.item{
+    background-color: black;
+    color: white;
+    
+}

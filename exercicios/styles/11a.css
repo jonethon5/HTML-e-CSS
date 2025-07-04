@@ -1,0 +1,12 @@
+.container {
+            display: grid;
+            grid-template-columns: 200px 75px;
+            
+        }
+        .item1{
+            background-color:cadetblue ;
+          
+        }
+        .item2{
+            background-color: palevioletred;
+        }

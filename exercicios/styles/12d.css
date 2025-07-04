@@ -1,0 +1,14 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    height: 50px;
+    align-items: center;
+
+}
+.rosa{
+    background-color: pink;
+}

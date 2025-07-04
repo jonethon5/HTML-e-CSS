@@ -1,0 +1,62 @@
+body {
+  height: 3000px;
+  background-color: black;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gato {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.profile-name {
+  display: flex;
+  flex-direction: row;
+}
+.botoes {
+  display: flex;
+  flex-direction: row;
+}
+.name {
+  padding-left: 8px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+.add {
+  background-color: rgb(66, 103, 178);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+  width: 90px;
+  cursor: pointer;
+  margin-right: 6px;
+}
+.message {
+  background-color: rgb(221, 218, 218);
+  border-radius: 4px;
+  height: 30px;
+  width: 90px;
+  border: none;
+  cursor: pointer;
+}

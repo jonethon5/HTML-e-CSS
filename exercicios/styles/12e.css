@@ -1,0 +1,44 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   border-color: grey;
+   border-style: solid;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 25px;
+   border-radius: 4px;
+   
+}
+.caixa{
+    display:flex ;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Notifications-14{
+    background-color: rgb(60, 139, 230);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 27px;
+    cursor: pointer;
+}
+.Menssages-button{
+    background-color: rgb(60, 139, 230);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 27px;
+    cursor: pointer;
+}
+.Home-bitton{
+    background-color: rgb(60, 139, 230);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 37px;
+    cursor: pointer;
+}

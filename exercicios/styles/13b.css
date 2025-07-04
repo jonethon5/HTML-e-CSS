@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    height: 50px;
+    flex-direction: row;
+}
+.item1{
+    background-color: pink;
+    width: 100px;
+}
+
+
+
+.item2{
+    background-color: cadetblue;
+    width: 200px;
+   
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.row1{
+  display: flex;
+  flex-direction: column;
+}
+
+.direita{
+    background-color: black;
+    color: white;
+}
+.esquerda{
+    background-color: black;
+    color: white;
+}

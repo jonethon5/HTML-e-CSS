@@ -1,0 +1,47 @@
+.google{
+    padding-top: 50px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin: 0 auto 20px;
+    display: block;
+    
+}
+.text{
+    font-size: 18px;
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 25px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15) ;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 30px;
+    
+}
+
+.pesquisa{
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    cursor: pointer;
+    
+
+}
+.lucky{
+    width: 130px;
+    height: 40px;
+    cursor: pointer;   
+}
+.pesquEluc{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}

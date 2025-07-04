@@ -1,0 +1,92 @@
+
+p{
+    font-size: 14;
+    font-style: arial;
+    
+}
+.container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 10px;
+      align-items: flex-start;
+}
+.gatinho{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 8px;
+    object-fit: cover; 
+}
+
+.perfil{
+    height: 100px;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+   
+    
+}
+
+.subtitulo{
+  width: 320px;
+  margin: 0;
+  
+  
+}
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.email{
+    margin-bottom: 0;
+    color: grey;
+    margin-left: 7px;
+}
+.comentario{
+    margin-top: 0;
+}
+  .caixa-youtube{
+        height: 100px;
+        width: 320px;
+        border-color: rgb(221, 221, 221);
+        border-style: solid;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        
+        
+    }
+    .esquerda{
+        width: 150px;
+        background-color: rgb(216, 216, 216);
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    .direita{
+        margin-top: 4px;
+        
+    }
+    .Youtube-div{
+        padding-left: 8px;
+        padding-left: 8px;
+        margin-top: 0;
+    }
+
+    .youtube{
+        margin-bottom: 2px;
+        color: gray;
+    }
+    .youtube-sub{
+        margin-top: 0;
+    }

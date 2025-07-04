@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha os filhos em coluna */
+    gap: 5px; /* Espaço entre os perfis */
+}
+
+.video-preview {
+    width: 200px;
+    display: flex;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.thumbmail {
+    width: 180px;
+    height: 90px;
+    margin-right: 6px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 14px;
+    width: 200px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+p {
+    font-family: Roboto, Arial;
+}
+
+.video-author,
+.video-views {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}

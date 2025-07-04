@@ -1,0 +1,42 @@
+body{
+    height: 3000px;
+}
+
+.container{
+    height: 180px;
+    width: 320px;
+    background-color: rgb(176, 176, 176);
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.close{
+      background-color: black;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-family: Arial;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -14px;
+  top: -14px;
+}
+
+.video{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}

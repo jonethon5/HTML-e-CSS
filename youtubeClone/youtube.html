@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="video.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icon/hamburger-menu.svg" alt="" />
+        <img class="youtube-logo" src="icon/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icon/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img
+            class="voice-search-icon"
+            src="icon/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icon/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <img class="apps-icon" src="icon/youtube-apps.svg" alt="" />
+        <div class="notification-icon-container">
+          <img class="notification-icon" src="icon/notifications.svg" />
+          <div class="notification-count">6</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-pictures/profile.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icon/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/explore (1).svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/originals.svg" alt="" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icon/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs"     target="_blank">
+                     <img class="Thumbnail" src="Thumbnails/thumb1.jfif">
+              </a>
+            <div class="video-time">2:24</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+                <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank" rel="noopener noreferrer">
+                     <img
+                class="profile-picture"
+                src="channel-pictures/chanel1.jpg"
+                alt=""
+              />
+                </a>
+             
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Começa aqui o novo @CursoemVideo de HTML5 e CSS3
+              </p>
+
+              <p class="video-author">Curso em Vídeo</p>
+
+              <p class="video-views">2.54M views &#183; 5 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=EerdGm-ehJQ&t=12886s" target="_blank" rel="noopener noreferrer"><img class="Thumbnail" src="Thumbnails/thimb2.jfif" /></a>
+            
+            <div class="video-time">22:15:56</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@SuperSimpleDev" target="_blank" rel="noopener noreferrer">  <img
+                class="profile-picture"
+                src="channel-pictures/chanel2.jpg"
+                alt=""
+              /></a>
+            
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">JavaScript Tutorial Full Course - Beginner to Pro</p>
+
+              <p class="video-author">Markiplier</p>
+
+              <p class="video-views">5.5M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=y4ltLH9iK8E&t=1s" target="_blank" rel="noopener noreferrer"><img class="Thumbnail" src="Thumbnails/thumb3.jfif" /></a>
+            <div class="video-time">13:16</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+             <a href="http://youtube.com/@rafaellaballerini" target="_blank" rel="noopener noreferrer"> <img
+                class="profile-picture"
+                src="channel-pictures/chanel3.jpg"
+                alt=""
+              /></a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+               10 ideias de projetos em HTML e CSS para adicionar no portfólio!
+              </p>
+
+              <p class="video-author">Rafaella Ballerini</p>
+
+              <p class="video-views">372K views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=LfaMVlDaQ24" target="_blank" rel="noopener noreferrer"><img class="Thumbnail" src="Thumbnails/thumb4.jfif" /></a>
+            <div class="video-time">101:51:22</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+             <a href="https://www.youtube.com/@freecodecamp" target="_blank" rel="noopener noreferrer"> <img
+                class="profile-picture"
+                src="channel-pictures/chanel4.jpg"
+                alt=""
+              /></a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Harvard CS50 (2023) – Full Computer Science University Course
+              </p>
+
+              <p class="video-author">freeCodeCamp.org
+</p>
+
+              <p class="video-views">6.7M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+           <a href="https://www.youtube.com/watch?v=KE9TSDqh6iw" target="_blank" rel="noopener noreferrer"> <img class="Thumbnail" src="Thumbnails/thomb5.jfif" /></a>
+            <div class="video-time">17:42</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <a href="https://www.youtube.com/@attekitadev" target="_blank" rel="noopener noreferrer"><img
+                class="profile-picture"
+                src="channel-pictures/chanel5.jpg"
+                alt=""
+              /></a>
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                 
+               Do Zero a Programador Full Stack: O que é Full Stack? O que eu preciso estudar?
+              </p>
+
+              <p class="video-author">Attekita Dev
+</p>
+
+              <p class="video-views">88K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="Thumbnail" src="Thumbnails/thumbnail-6.webp" />
+            <div class="video-time">19:59</div>
+          </div>
+
+          <div class="video-info-grid">git init
+
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="channel-pictures/channel-6.jpeg"
+                alt=""
+              />
+            </div>
+
+            <div class="video-info">
+              <p class="video-title">
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+
+              <p class="video-author">MrBeast</p>
+
+              <p class="video-views">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

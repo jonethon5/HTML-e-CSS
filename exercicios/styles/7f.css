@@ -1,0 +1,32 @@
+
+.email{
+    font-size: 14px;
+    color: gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.link{
+    width: 316px;
+    padding-top: 2px;
+    border-style: solid;
+
+}
+.agree{
+    font-size: 14px;
+
+}
+.button{
+    font-size: 14px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+    width: 324px;
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+}

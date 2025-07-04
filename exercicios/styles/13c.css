@@ -1,0 +1,58 @@
+
+p{
+    font-size: 14px;
+    font-family: arial;
+}
+
+.principal{
+    width: 410px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.all{
+   margin-left: 14px;
+   color: grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.gatinho-imagem{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 8px;
+    object-fit: cover;
+}
+.titulo{
+    width: 180px;
+}
+.titulo-hora{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.subtitulo{
+    color: grey;
+    margin-top: 4px;
+}
+.hora{
+    color: grey;
+}
+.titulo-perfil{
+    margin-bottom:4px;
+}

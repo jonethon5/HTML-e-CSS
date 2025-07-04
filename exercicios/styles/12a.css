@@ -1,0 +1,14 @@
+.principal{
+    display: flex;
+    flex-direction:row ;
+
+}
+.left-section{
+    background-color: cadetblue;
+    width: 200px;
+    
+}
+.right-section{
+background-color: palevioletred;
+width: 75px;
+}
